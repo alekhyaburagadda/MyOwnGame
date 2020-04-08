@@ -44,6 +44,7 @@ if(rainGroup.collide(playerBlock)){
 else if(enemyGroup.collide(playerBlock)){
 score=score-1
 enemyGroup.destroyEach();
+   background(255,0,0);
 
 }
   drawSprites();
